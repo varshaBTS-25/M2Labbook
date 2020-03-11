@@ -1,0 +1,26 @@
+
+<table class="container float-left">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Department</th>
+        <th colspan="2">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let a of Employee">
+        <td>{{a.id }} </td>
+        <td>{{a.name}}</td>
+        <td>{{a.salary}}</td>
+        <td>{{a.department}}</td>
+        <td>
+            <button (click)="delete(a.id)" class="btn btn-secondary" type="button">Delete</button>
+        </td>
+        <td>
+          <button (click)="update(a.id)" class="btn btn-primary" type="button">UPDATE</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>

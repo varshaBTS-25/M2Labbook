@@ -1,0 +1,26 @@
+
+<body>
+    <form #a="ngForm" (ngSubmit)="update(a.value)">
+        <table class="table container table-bordered">
+            <tr><th>ID</th>
+            <td><input type="number" class="form-control" name="id" ngModel></td>
+            </tr>
+            <tr><th>Name</th>
+                <td><input type="text" class="form-control" name="name" ngModel></td>
+            </tr>
+            <tr>
+                <th>Salary</th>
+                <td><input type="number" class="form-control" name="salary" ngModel></td>
+            </tr>
+            <tr>
+                <th>Department</th>
+                <td><input type="text" class="form-control" name="department" ngModel></td>
+            </tr>
+                <tr class="but">
+                    <td colspan="2"><input type="submit" class="btn btn-success" value="UPDATE"></td>
+                    
+                </tr>
+        </table>
+        
+    </form>
+</body>

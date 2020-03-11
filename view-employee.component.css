@@ -1,0 +1,5 @@
+table,thead,tr,td,th{
+    width: 250px;
+    text-align: center;
+    border: 2px double black;
+}
