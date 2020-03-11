@@ -1,0 +1,17 @@
+[
+  {"id":1,
+  "name":"scooby" ,"salary":40000,"department":"Testing"
+  
+  }
+,
+  {"id":2,
+    "name":"fluffy" ,"salary":30000,"department":"Maintance"
+    
+    }
+    ,
+    {"id":3,
+      "name":"tuffy" ,"salary":70000,"department":"Developer"
+      
+      }
+  
+  ]
